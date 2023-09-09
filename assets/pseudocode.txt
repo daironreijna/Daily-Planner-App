@@ -1,0 +1,68 @@
+# PSEUDOCODE Project 7: Daily Planner App
+
+Date: 9th Sept 2023.
+
+Important to take the time to consider how the website will work from multiple perspectives. How will the user interact with the website, what do they need to see, understand (take away and be able to do) and what do we expect them to do.
+
+Then with that understanding, what do I as a Front End developer need to complete in order to achieve that. A high level synopsis, which will include logic, development areas, etc.
+
+Subsequently, what specific programming tools, concepts, functions etc. will I use? I can review the coding language documentation material to get a clue on how to code the initial version of the application.
+
+# User view
+  ===========================================================
+
+The user will visit the site and see a header section with the following
+- Work Day Scheduler
+- A subtitle
+
+Under the header there will be a section for adding elements in a schedule.
+The schedule is subdivided into hourly segments, starting at 9am and finishing at 6pm. 
+
+There user will see a clear demarcation between the header element and the scheduler section of the website.
+
+The scheduler section of the website will have the following,
+9 rows
+3 columns
+the first column has the time 
+the middle column is where the user can input the task to be completed.
+the last column on the row is a save/update button, colored in a blueish green color.
+
+Each row is colored green.
+As the day progresses the scheduler will grey out times that have passed.
+Will highlight red, the row that corresponds with the current time of day.
+
+
+(OUTPUTs from this stage: wireframe(s) of the website to be built, with relevant elements incorporated e.g. color, size of items on display etc.)
+
+
+
+# What developer has to do
+  ===========================================================
+
+Use bootstrap to build the initial elements of the work day scheduler.
+
+How are elements stored?
+
+Ensure Day.js is linked in the html and use this within the script.js file.
+
+The color coding of each row will need to rely on Day.js and Jquery to dynamicly update the scheduler.
+
+(OUTPUT stage 2: logic behind all the elements needed)
+
+
+# Tools to accomplish above tasks.
+  ===========================================================
+
+Write out the elements needed from bootstrap, css, html to build the skeleton of the Work Day Scheduler.
+
+
+
+
+Write out in detail what the logic for changing of the color would look link:
+
+
+(OUPUT stage 3: build the html, javascript, asset folder etc., review online documents, code and test along the way. Remember to commit each time you have working code. Make use of alert, confirm, prompt and console.log when testing but change to show elements on the page.)
+
+
+
+
